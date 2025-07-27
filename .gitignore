@@ -46,6 +46,5 @@ apps/dashboard/.next/
 
 # Misc
 *.tgz
-apps/dashboard
 node_modules/
 node_modules/
