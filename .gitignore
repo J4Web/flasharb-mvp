@@ -1,20 +1,51 @@
-# Node modules
-/node_modules
 
-# Compilation output
-/dist
+# Node.js
+node_modules/
 
-# pnpm deploy output
-/bundle
+# Hardhat/Foundry/Artifacts
+artifacts/
+build/
+cache/
+dump.rdb
 
-# Hardhat Build Artifacts
-/artifacts
+# TypeScript
+*.tsbuildinfo
 
-# Hardhat compilation (v2) support directory
-/cache
+# Logs
+*.log
 
-# Typechain output
-/types
+# Environment
+.env
+.env.*
 
-# Hardhat coverage reports
-/coverage
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+
+# pnpm
+pnpm-lock.yaml
+
+# Coverage
+coverage/
+
+# Others
+*.swp
+
+# Monorepo apps/packages
+apps/*/node_modules/
+packages/*/node_modules/
+apps/*/build/
+packages/*/build/
+apps/*/dist/
+packages/*/dist/
+
+# Next.js
+apps/dashboard/.next/
+
+# Misc
+*.tgz
+apps/dashboard
+node_modules/
+node_modules/
