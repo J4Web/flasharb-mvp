@@ -41,8 +41,6 @@ packages/*/build/
 apps/*/dist/
 packages/*/dist/
 
-# Next.js
-apps/dashboard/.next/
 
 # Misc
 *.tgz
